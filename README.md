@@ -1,9 +1,18 @@
 # Urban function maps on open data — FOSS4G Hiroshima 2026
 
-Code for two talks:
+> **This repository is the snapshot uploaded on the day of the first talk. It is kept for the record and is no longer updated.**
+>
+> | Talk | Where it lives now |
+> | --- | --- |
+> | *50 Lines of Python: Neighborhood DNA from Overture Maps Places*, lightning talk, 2 September 2026 | [m-erts/neighborhood-dna](https://github.com/m-erts/neighborhood-dna): [slides](https://m-erts.github.io/neighborhood-dna/), [interactive map](https://m-erts.github.io/neighborhood-dna/demo.html), [slides as delivered on stage (PDF)](https://github.com/m-erts/neighborhood-dna/blob/main/docs/slides-as-delivered.pdf), [caveats](https://github.com/m-erts/neighborhood-dna/blob/main/CAVEATS.md) |
+> | *Eurostat vs OSM vs Census: Choosing Open Mobility Data for Urban Function Maps* | Accepted; the session was cancelled. |
+>
+> `talk1/neighborhood_dna.py` pins Overture release `2026-07-22.0`. Overture keeps a release for 60 days and has deleted it, so the quick start below no longer runs as written. Use `dna.py` in [neighborhood-dna](https://github.com/m-erts/neighborhood-dna), which takes the newest release.
+
+Code prepared for two talks:
 
 - **Sep 2, 13:45, Ran1** — *50 Lines of Python: Neighborhood DNA from Overture Maps Places* (lightning)
-- **Sep 3, 14:00, Room 2** — *Eurostat vs OSM vs Census: Choosing Open Mobility Data for Urban Function Maps*
+- *Eurostat vs OSM vs Census: Choosing Open Mobility Data for Urban Function Maps* (accepted; the session was cancelled)
 
 **The question behind both:** which parts of an urban-function-mapping methodology,
 built on paid mobile-operator GPS, survive on fully open data — and where exactly
@@ -40,10 +49,10 @@ Code MIT · slides & figures CC BY 4.0.
 
 # Urban function maps on open data — FOSS4G Hiroshima 2026
 
-Код к двум докладам:
+Код, подготовленный к двум докладам:
 
 - **2 сентября, 13:45, Ran1** — *50 Lines of Python: Neighborhood DNA from Overture Maps Places* (lightning, 4 мин)
-- **3 сентября, 14:00, Conference Management Room2** — *Eurostat vs OSM vs Census: Choosing Open Mobility Data for Urban Function Maps* (20 мин)
+- *Eurostat vs OSM vs Census: Choosing Open Mobility Data for Urban Function Maps* (доклад принят; сессия была отменена)
 
 **Вопрос обоих докладов:** какие части методологии картирования городских функций,
 отработанной на платных GPS мобильных операторов, выживают на полностью открытых
